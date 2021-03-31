@@ -35,37 +35,29 @@
     </nav>
 
     <h2>Account Details</h2>
-    <hr>
 
-    <p>Username: John Doe</p>
-    <p>Email: johndoe@gmail.com</p>
-    
-    <h3>Personalization</h3>
-    <div id="personalizationform">
-        <input type="text" placeholder="Your Country" id="location"><br>
-        <input type="checkbox" id="emailupdates">
-        <label for="emailupdates"> Allow Weekly Email Updates?</label><br>
-    
-        <br>
-        <input type="button" id="savebutton" onclick="saveDetails()" value="Save">
+    <div class="panel">
+        <p id="usernamedisplay">Username: John Doe</p>
+        <p id="emaildisplay">Email: johndoe@gmail.com</p>
+
+        <h3>Personalization</h3>
+        <div id="personalizationform">
+            <input type="text" placeholder="Your Country" id="locationbox"><br>
+            <input type="checkbox" id="emailupdatesbox">
+            <label for="emailupdatesbox"> Allow Weekly Email Updates?</label><br>
+        
+            <br>
+            <input type="button" id="savebutton" onclick="" value="Save">
+        </div>
     </div>
 
     <footer>
-        <hr>
         <p>Prototype Developed by Noah Jervey</p>
         <p>Made for Group 3 of Web Design Workshop II</p>
         <button onclick="scrolltoTop()" id="scrolltop">Go To Top</button>
     </footer>
 
     <script>
-        function scrolltoTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        function saveDetails() {
-            window.location.href="index.html";
-        }
     </script>
 </body>
 
