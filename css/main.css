@@ -17,3 +17,37 @@
   Subtitle - Bookman Old Style (Regular)
   Paragraph - Ebrima
 */
+
+/*Breakpoints*/
+
+/*Hero Banner*/
+.banner-image {
+  display: flex;
+  flex-direction: column;
+  background-image: url();/*Need to make some private imgur links*/
+  min-height: 240px;
+  height: 50%;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.banner-header {
+  align-self: center;
+  font-size: 42px;
+}
+/*Nav Bar*/
+
+/*Main Content*/
+
+/*Login/Signup*/
+
+/*Settings*/

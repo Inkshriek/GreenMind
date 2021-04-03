@@ -14,6 +14,15 @@
 </head>
 
 <body>
+    <!--
+    <div class="banner-image">
+        <div class="banner-text">
+            <h1 class="banner-header">Green Mind</h1>
+            <p>Recylcing Activism</p>
+        </div>
+    </div>
+    -->
+
     <header>
         <img src="img/Logo.png" style="width:150px;height:150px;" alt="Green Mind Logo"/>
         <h1>Green Mind</h1>
