@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!--
+    <!-- Testing, once fully fuctional will copy to other pages - NS
     <div class="banner-image">
         <div class="banner-text">
             <h1 class="banner-header">Green Mind</h1>
