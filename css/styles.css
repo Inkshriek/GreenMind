@@ -1,0 +1,158 @@
+/*
+  Colors:
+  Brown - #B97F4C
+  Light Green - #B6CA80
+  Dark Green - #708E5B
+  Dark Blue - #227C9D
+  Light Blue - #8CD2DB
+  White - #FFFFFF
+  Black - #000000
+
+  Fonts: 
+  Logo - Berlin Sans
+  Title - Bookman Old Style (Bold)
+  Subtitle - Bookman Old Style (Regular)
+  Paragraph - Ebrima
+*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Bookman Old Style';
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Bookman Old Style';
+}
+
+body {
+  font-family: 'Ebrima';
+}
+
+nav {
+  background: #222;
+  padding: 0 15px;  
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.container {
+  list-style-type: none;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item.button {
+  padding: 9px 5px;
+}
+
+item:not(.button) a:hover,
+.item a:hover::after {
+  color: #8CD2DB;
+}
+
+/*Hero Banner*/
+.banner {
+  background-color: #708E5B;
+}
+
+.banner-image {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://i.imgur.com/7vmvflv.png);
+  min-height: 240px;
+  height: 50%;
+  width: auto;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: inherit;
+  background-position:center center;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-image {
+    background-image: url(https://i.imgur.com/LIUggP8.png);
+    background-size: contain;
+  }
+}
+
+/*Nav Bar*/
+  /*Mobile*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container li a {
+  display: block;
+  padding: 15px 15px;
+}
+
+.toggle {
+  order: 1;
+  font-size: 20px;
+}
+
+.item.button {
+  order: 2;
+}
+
+.item {
+  order: 3;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.active .item {
+  display: block;
+}
+
+.button.secondary {
+  border-bottom: 1px #444 solid;
+}
+  /*Desktop*/
+@media screen and (min-width: 768px) {
+  .container {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background: none;
+  }
+
+  .item {
+    order: 0;
+    position: relative;
+    display: block;
+    width: auto;
+  }
+
+  .button {
+    order: 1;
+  }
+
+  .toggle {
+    display: none;
+  }
+}
+
+
+
+/*Main Content*/
+
+/*Login/Signup*/
+
+/*Settings*/

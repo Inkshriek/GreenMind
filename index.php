@@ -10,31 +10,25 @@
     <meta name="description" content="Climate Activism and Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
 </head>
 
 <body>
-    <!-- Testing, once fully fuctional will copy to other pages - NS
-    <div class="banner-image">
-        <div class="banner-text">
-            <h1 class="banner-header">Green Mind</h1>
-            <p>Recylcing Activism</p>
-        </div>
+    <!-- Testing, once fully fuctional will copy to other pages - NS -->
+    <div class="banner">
+       <div class="banner-image"></div>
     </div>
-    -->
-
-    <header>
-        <img src="img/Logo.png" style="width:150px;height:150px;" alt="Green Mind Logo"/>
-        <h1>Green Mind</h1>
-    </header>
 
     <nav>
-        <ul>
-            <li><a href="events.php">Current Events</a></li>
-            <li><a href="climate.php">Climate Change</a></li>
-            <li><a href="blame.php">Who's To Blame</a></li>
-            <li><a href="involvement.php">Get Involved</a></li>
-            <li><a href="about.php">About Us</a></li>
+        <ul class="container">
+            <li class="item"><a href="events.php">Current Events</a></li>
+            <li class="item"><a href="climate.php">Climate Change</a></li>
+            <li class="item"><a href="blame.php">Who's To Blame</a></li>
+            <li class="item"><a href="involvement.php">Get Involved</a></li>
+            <li class="item"><a href="about.php">About Us</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a> <!--Need to add event listener for menu toggle-->
         </ul>
 
         <!--Displays login/signup buttons if you're not signed in, or the account button if you are.-->
@@ -51,7 +45,8 @@
                     </p><?php
                 }
             }
-        ?>
+        ?> <!--If possible, can you add these to the nav UL? I want them to be 
+            included but I also dont want to deconstruct your code. TY - NS -->
     </nav>
 
     <h2>Welcome to Green Mind, your resource on our changing climate.</h2>
