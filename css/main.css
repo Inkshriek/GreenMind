@@ -1,4 +1,4 @@
-/*
+/* 
   Colors:
   Brown - #B97F4C
   Light Green - #B6CA80
@@ -12,12 +12,17 @@
   Logo - Berlin Sans
   Title - Bookman Old Style (Bold)
   Subtitle - Bookman Old Style (Regular)
-  Paragraph - Ebrima
+  Paragraph - Ebrima 
 */
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.fa_custom {
+  color: #ffffff;
 }
 
 h1 {
@@ -35,7 +40,7 @@ body {
 
 nav {
   background: #222;
-  padding: 0 15px;  
+  padding: 5px 20px;  
 }
 
 a {
@@ -43,33 +48,43 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .container {
   list-style-type: none;
 }
 
-.item {
-  padding: 10px;
+.container li {
+  font-size: 16px;
+  padding: 15px 5px;
 }
 
-.item.button {
-  padding: 9px 5px;
+.container li a {
+  display: block;
 }
 
-item:not(.button) a:hover,
-.item a:hover::after {
-  color: #8CD2DB;
+/* .container li a:hover {
+  background-color: #8CD2DB;
+  color: #000;
+} */
+
+.button.secondary {
+  border-bottom: 1px #444 solid;
 }
 
-/*Hero Banner*/
+/* Hero Banner */
 .banner {
   background-color: #708E5B;
+  max-height: 300px;
 }
 
 .banner-image {
   display: flex;
   flex-direction: column;
   background-image: url(https://i.imgur.com/7vmvflv.png);
-  min-height: 240px;
+  max-height: 240px;
   height: 50%;
   width: auto;
   align-self: center;
@@ -81,15 +96,20 @@ item:not(.button) a:hover,
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
+  .banner {
+    max-height: 250px;
+    width: auto;
+  }
   .banner-image {
     background-image: url(https://i.imgur.com/LIUggP8.png);
     background-size: contain;
   }
+  
 }
 
-/*Nav Bar*/
-  /*Mobile*/
+/* Nav Bar */
+  /* Mobile */
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -97,14 +117,9 @@ item:not(.button) a:hover,
   align-items: center;
 }
 
-.container li a {
-  display: block;
-  padding: 15px 15px;
-}
-
 .toggle {
   order: 1;
-  font-size: 20px;
+  cursor: pointer;
 }
 
 .item.button {
@@ -112,47 +127,83 @@ item:not(.button) a:hover,
 }
 
 .item {
-  order: 3;
   width: 100%;
   text-align: center;
+  order: 3;
   display: none;
 }
 
-.active .item {
+.item.active {
   display: block;
 }
 
-.button.secondary {
-  border-bottom: 1px #444 solid;
-}
-  /*Desktop*/
-@media screen and (min-width: 768px) {
+/* Tablet */
+@media all and (min-width: 480px){
   .container {
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    background: none;
+    justify-content: center;
+  }
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
   }
 
-  .item {
+  .toggle {
     order: 0;
-    position: relative;
+    flex: 1;
+  }
+
+  .button.secondary {
+    border: none;
+  }
+
+  .button a {
+    padding: 7px 15px;
+    background: #227C9D;
+    border: 2px solid #227C9D;
+    border-radius: 50em;
+  }
+
+  .button.secondary a { 
+    background: transparent;
+  }
+
+  .button a:hover {
+    transition: all .25s;
+  }
+}
+
+/* Desktop */
+@media all and (min-width: 768px) {
+  .item {
     display: block;
     width: auto;
-  }
-
-  .button {
-    order: 1;
   }
 
   .toggle {
     display: none;
   }
+
+  .item {
+    order: 1;
+  }
+
+  .button {
+    order: 2;
+  }
+
+  .container li {
+    padding: 15px 10px;
+  }
+
+  .container li.button {
+    padding-right: 0;
+  }
 }
 
 
+/* Main Content */
 
-/*Main Content*/
+/* Login/Signup */
 
-/*Login/Signup*/
-
-/*Settings*/
+/* Settings */

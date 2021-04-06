@@ -10,7 +10,7 @@
     <meta name="description" content="Climate Activism and Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     
 </head>
@@ -28,7 +28,10 @@
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
             <li class="item"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
-            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a> <!--Need to add event listener for menu toggle-->
+            <li class="item button"><a href="">Login</a></li>
+            <li class="item button secondary"><a href="">Sign Up</a></li>
+            <li class="toggle"><i class="fas fa-bars fa_custom"></i></li> 
+            <!-- ^Need to add event listener for menu toggle -->
         </ul>
 
         <!--Displays login/signup buttons if you're not signed in, or the account button if you are.-->
@@ -45,7 +48,7 @@
                     </p><?php
                 }
             }
-        ?> <!--If possible, can you add these to the nav UL? I want them to be 
+        ?> <!-- If possible, can you add these^ to the nav UL? I want them to be 
             included but I also dont want to deconstruct your code. TY - NS -->
     </nav>
 
