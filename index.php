@@ -10,7 +10,7 @@
     <meta name="description" content="Climate Activism and Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     
 </head>
@@ -52,21 +52,34 @@
             included but I also dont want to deconstruct your code. TY - NS -->
     </nav>
 
-    <h2>Welcome to Green Mind, your resource on our changing climate.</h2>
+    <h1>Welcome to Green Mind, your resource on our changing climate.</h1>
 
     <!--You should probably see a preview of significant events from here.-->
     <div class="panel">
         <ul id="breakingnews">
+            <h3>Local News</h3>
             <li class="newsitem">
-                <h3>Sample Event Title</h3>
+                <p>Toxic wastewater pool threatening to leak into an aquifer in 
+                    Manatee County.</p>
+                <p>Inert naval mine washed up on Florida beach, now is removed.</p>
                 <img src="placeholder.jpg" alt="Sample Photo" width="200" height="200">
             </li>
-            <li class="newsitem">
-                <h3>Sample Event Title</h3>
+            
+            <h3>National News</h3>
+            <li class="newsitem">    
+                <p>President Biden's Infrastructure Plan and now it can be 
+                    positively impact climate change.</p>
+                <p>The use of US pesticides is decreasing but harms 
+                    pollinators more?</p>
                 <img src="placeholder.jpg" alt="Sample Photo" width="200" height="200">
             </li>
-            <li class="newsitem">
-                <h3>Sample Event Title</h3>
+        
+            <h3>Global News</h3>
+            <li class="newsitem">        
+                <p>Japan recorded its earliest cherry blossom bloom in 1,200 
+                    years. Scientists are warning this is due to climate change.</p>
+                <p>The beef industry can become more climate-friendly in its 
+                    production and land management.</p>
                 <img src="placeholder.jpg" alt="Sample Photo" width="200" height="200">
             </li>
         </ul>
@@ -74,7 +87,11 @@
     </div>
 
     <div class="panel">
-        <p>It is often said that caring for the environment is an individual responsibility, and that we must be the ones to do it. Such may be true, but what of the ones really doing the damage? The ones seldom spoken about; the ones with power and wealth. We would like to change the discussion.</p>
+        <p>It is often said that caring for the environment is an individual 
+            responsibility, and that we must be the ones to do it. Such may be 
+            true, but what of the ones really doing the damage? The ones seldom 
+            spoken about; the ones with power and wealth. We would like to 
+            change the discussion.</p>
         <p>And you can do your part to advocate!</p>
         <p id="takethestep"><a href="climate.html">Take The Step</a></p>
     </div>
