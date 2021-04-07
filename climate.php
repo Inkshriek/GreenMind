@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <!-- UPDATE BANNER AND NAV -->
+    
     <header>
         <img src = "img/Logo.png" style="width:150px;height:150px;" alt = "Green Mind Logo"/>
         <h1><a href="index.php">Green Mind</a></h1>
@@ -43,24 +45,61 @@
         ?>
     </nav>
 
-    <h2>Climate Change</h2>
+    <h1>Climate Change</h1>
 
     <div class="panel">
-        <h3>Definition</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et metus non eros vulputate cursus vitae id metus. Etiam vitae est varius, fringilla sapien a, volutpat urna. Nunc fringilla nulla vitae tristique scelerisque. Cras aliquet tortor vel enim lobortis, eget fringilla tellus consequat. Aenean eleifend feugiat nisl. Vestibulum aliquam elit eu elementum dictum. Aliquam lacinia accumsan pulvinar.</p>
-        <p>Fusce venenatis non arcu non congue. Donec vel ex felis. Donec vehicula felis elit, vitae aliquam neque vehicula in. Donec dapibus massa elementum, sodales justo id, vulputate ante. Integer at elit ac leo tincidunt mollis nec et leo. Duis mollis fringilla dictum. Quisque quis ornare odio, malesuada fringilla arcu. Pellentesque id pharetra turpis, quis euismod orci. Ut egestas, nulla sit amet varius dictum, felis turpis pellentesque sapien, aliquam vestibulum nisl lorem quis augue. Sed non risus ante. Maecenas vestibulum lobortis nisi, sed rutrum risus laoreet eget.</p>
+        <h3>What is Climate Change?</h3>
+        
+        <p>Climate Change is concerning weather during a particular time of year
+             in a specific location that changes from what the weather is 
+             normally like in that place.</p> 
+
+        <p>However, Climate Change also is concerning the weather around the 
+            world and how the earth’s weather patterns change around the globe 
+            as a whole.</p>
+
+        <p>Climate Change is not a typically fast occurrence like how it rains 
+            in the afternoon for a few hours or less. Climate Change is an 
+            alteration in weather that occurs over long periods, like years at 
+            a time, to see or notice any significant differences within seasonal
+            weather patterns.</p>
+
         <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
     </div>
     
     <div class="panel">
-        <h3>The Causes</h3>
-        <p>Praesent mattis lobortis leo eu tristique. Ut ultricies, justo vel aliquam consequat, mauris risus feugiat diam, sit amet semper nisi arcu a urna. Maecenas a tellus ac diam ullamcorper interdum a vulputate risus. Sed ornare neque tellus, vitae posuere enim bibendum non. Morbi dapibus, sapien ac convallis bibendum, dolor risus porttitor nulla, mattis porta dolor libero non velit. Sed quis congue lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vulputate luctus sapien ac condimentum. Phasellus justo elit, pharetra et urna sit amet, accumsan accumsan tortor. Morbi auctor ipsum quis sapien suscipit, vel iaculis magna laoreet. Maecenas lacinia sapien elit, vitae semper nisl ultricies eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi luctus vehicula placerat. Vivamus quis odio vulputate, consectetur elit ut, maximus diam. Integer magna lacus, ultrices eu pharetra sed, bibendum pretium nulla.</p>
-        <p>Fusce libero urna, molestie at blandit sed, elementum sit amet neque. Vestibulum accumsan leo vitae ligula suscipit, vitae dapibus ante ornare. Quisque nec aliquam quam. Morbi rhoncus metus et mollis accumsan. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed arcu nunc, viverra id finibus ut, posuere vel nisl. Donec aliquet viverra ligula ac aliquet. Aliquam id risus sapien. Nunc orci quam, sagittis vel enim vel, mattis elementum ex. Nam convallis pharetra nibh, ac gravida diam rutrum eget.</p>
+        <h3>How did Climate Change Start?</h3>
+        
+        <p>Climate Change has always been in existence. Climate alters on its 
+            own by fluctuating based on natural occurrences. An example of a 
+            natural occurrence that could impact climate change is where the 
+            earth sits in relation to the sun. The earth may not sit in the 
+            same place every year on the same day which would cause a change in 
+            the earth’s climate compared to previous weather. </p>
     </div>
 
     <div class="panel">
-        <h3>The Effects</h3>
-        <p>Duis tincidunt, dolor a suscipit elementum, lacus lorem convallis mauris, eget maximus leo tortor eget metus. Etiam accumsan facilisis dignissim. Sed aliquet, lectus in volutpat bibendum, est ipsum congue dui, maximus ullamcorper nibh sapien at justo. Integer mi nunc, ullamcorper et ante nec, mattis suscipit eros. Cras maximus elit eget tortor placerat, eu fermentum ipsum egestas. In mi quam, sodales vel dolor ornare, rhoncus interdum justo. Sed vitae nibh libero. Etiam eleifend molestie massa. Nullam euismod enim in nisi hendrerit, nec fringilla metus dictum. Sed ullamcorper nibh consequat sapien tincidunt, non accumsan lacus lobortis. Integer pretium non orci in auctor. Sed vulputate est vitae nulla imperdiet dignissim. Maecenas in rhoncus dui, ac varius odio.</p>
+        <h3>What is so bad About Climate Change?</h3>
+        
+        <p>Climate Change is not bad; however, the problem currently with 
+            Climate Change is the earth’s climate is changing drastically in 
+            shorter periods than usual. For example, rather than taking 
+            multiple years to see a gradual change in the weather, there is a 
+            jump in the earth’s climate by changing at greater amounts each 
+            year. This large change in the climate is due to the impact human’s 
+            everyday actions take on our earth’s climate. These actions can 
+            alter the course of this change on our earth. Since billions of 
+            humans inhabit this planet, something as common as driving a car 
+            that takes gas causes some sort of change to our climate due to the 
+            pollution from the burning of fuel. There are many other 
+            contributions that humans play a large role in that add to the 
+            rapid shift of Climate Change besides car pollution.</p>  
+
+        <p>Want to know more about the influences that are negatively impacting 
+            Climate Change?</p> 
+
+        <p>Check out our <a href="blame.php">Who's To Blame</a> page to learn 
+            more!</p>
     </div>
 
     <footer>

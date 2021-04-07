@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <!-- UPDATE BANNER AND NAV -->
+
     <header>
         <img src = "img/Logo.png" style="width:150px;height:150px;" alt = "Green Mind Logo"/>
         <h1><a href="index.php">Green Mind</a></h1>
@@ -46,21 +48,66 @@
     <h2>Who's To Blame</h2>
 
     <div class="panel">
-        <h3>Public Figures</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et metus non eros vulputate cursus vitae id metus. Etiam vitae est varius, fringilla sapien a, volutpat urna. Nunc fringilla nulla vitae tristique scelerisque. Cras aliquet tortor vel enim lobortis, eget fringilla tellus consequat. Aenean eleifend feugiat nisl. Vestibulum aliquam elit eu elementum dictum. Aliquam lacinia accumsan pulvinar.</p>
-        <p>(A detailed list may go here, displaying a sample of public people and why their societal role causes damage.)</p>
+        <h3>Who or what exactly is behind the significant change in our climate?</h3>
+    
+        <p> As we mentioned on our <a href="climate.php">Climate Change</a> 
+            page, this change is attributed to many different factors from the 
+            human population. A large portion of Climate Change is influenced 
+            by greenhouse gas emissions caused by us humans. (Greenhouse gas 
+            emissions are gases that are stuck inside our atmosphere that is 
+            heating our planet, similar to how greenhouses for plants 
+            function.) But, besides each of our actions, there are larger 
+            contributors to this rapid change in our environment. Some 
+            companies and industries play very large roles that are helping 
+            increase this shift in our climate at larger percentages.</p>
     </div>
 
     <div class="panel">
-        <h3>Companies</h3>
-        <p>Fusce venenatis non arcu non congue. Donec vel ex felis. Donec vehicula felis elit, vitae aliquam neque vehicula in. Donec dapibus massa elementum, sodales justo id, vulputate ante. Integer at elit ac leo tincidunt mollis nec et leo. Duis mollis fringilla dictum. Quisque quis ornare odio, malesuada fringilla arcu. Pellentesque id pharetra turpis, quis euismod orci. Ut egestas, nulla sit amet varius dictum, felis turpis pellentesque sapien, aliquam vestibulum nisl lorem quis augue. Sed non risus ante. Maecenas vestibulum lobortis nisi, sed rutrum risus laoreet eget.</p>
-        <p>(Likewise, this may include examples of the most wealthy companies in the United States.)</p>
+        <h3>The Industries</h3>
+
+        <ul>
+            <li>Electricty and Heat Production</li>
+            <li>Industry</li>
+            <li>Agriculture, Forestry, and Other Land use</li>
+            <li>Transportation</li>
+            <li>Buildings</li>
+            <li>Other Energy</li>
+        </ul>
+
+        <p>The list above, according to <a href=epa.gov>epa.gov</a>, contains 
+        the leading industries in the world that contribute the largest 
+        percentages of greenhouse gas emissions. Each of these industries 
+        either burns fossil fuels, coal, natural gas, oil, or other substances 
+        along with releasing other gases into our atmosphere that contribute to 
+        the emissions of greenhouse gases each year.</p>
+        
     </div>
 
     <div class="panel">
-        <h3>Industries</h3>
-        <p>Praesent mattis lobortis leo eu tristique. Ut ultricies, justo vel aliquam consequat, mauris risus feugiat diam, sit amet semper nisi arcu a urna. Maecenas a tellus ac diam ullamcorper interdum a vulputate risus. Sed ornare neque tellus, vitae posuere enim bibendum non. Morbi dapibus, sapien ac convallis bibendum, dolor risus porttitor nulla, mattis porta dolor libero non velit. Sed quis congue lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vulputate luctus sapien ac condimentum. Phasellus justo elit, pharetra et urna sit amet, accumsan accumsan tortor. Morbi auctor ipsum quis sapien suscipit, vel iaculis magna laoreet. Maecenas lacinia sapien elit, vitae semper nisl ultricies eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi luctus vehicula placerat. Vivamus quis odio vulputate, consectetur elit ut, maximus diam. Integer magna lacus, ultrices eu pharetra sed, bibendum pretium nulla.</p>
-        <p>(A discussion of industrial practices in general will go here.)</p>
+        <h3>The Companies</h3>
+    
+        <ul>
+            <li>China (Coal)</li>
+            <li>Saudi Arabian Oil Company (Aramco)</li>
+            <li>Gazprom OAO</li>
+            <li>National Iranian Oil Co</li>
+            <li>ExxonMobil Corp</li>
+            <li>Coal India</li>
+            <li>Petroleos Mexicanos (Pemex)</li>
+            <li>Russia (Coal)</li>
+            <li>Royal Dutch Shell PLC</li>
+            <li>China National Petroleum Corp (CNPC)</li>
+        </ul>
+
+        <p>Above is a list of the top ten companies in the world that 
+            contribute the most greenhouse gas emissions according to The 
+            Carbon Majors Database, a report that was published by the Carbon 
+            Disclosure Project (CDP). </p>
+
+        <p>Want to know more and how you can help us fight climate change?</p> 
+
+        <p>Check out our <a href="involvement.php">Get Involved</a> page to 
+        know more!</p>
     </div>
 
     <footer>

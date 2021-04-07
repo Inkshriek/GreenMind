@@ -6,6 +6,8 @@
 <html lang="en">
 
 <head>
+    <!-- UPDATE BANNER AND NAV -->
+    
     <title>Green Mind - About Us</title>
     <meta name="description" content="Climate Activism and Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,21 +45,30 @@
         ?>
     </nav>
 
-    <h2>About Us</h2>
+    <h1>About Us</h1>
 
     <div class="panel">
-        <p>stuff about us idk</p>
+        <h3>Welcome!</h3>
+        
+        <p>We are Green Mind! We are an advocacy group whose purpose is to 
+            spread awareness about Climate Change.</p>  
+
+        <p>We want to inform others about Climate Change, how it is impacted, 
+            and what each of us can do to help prevent this rapid change in our 
+            earth. We want the earth to be healthy and take care of it since it is our home, we hope you think so too!</p>
+
+        <p>Thank you for visiting our site! Check out our social media links 
+            below to stay connected about current events and more ways to get 
+            involved. </p>
+
+        <p>Together we can fight climate change by sharing our Green Minds! </p>
     </div>
 
     <div class="panel">
         <h3>Contact</h3>
-        <p id="aboutphone">(407) 000-0000</p>
-        <p id="aboutemail">someemailaddress@gmail.com</p>
-    </div>
 
-    <div class="panel">
-        <h3>Further Reading</h3>
-        <ul id="furtherlinks">
+        <p>Follow Us on Social Media!</p>
+        <ul class="socialLinks">
             <li><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/">Sample Resource</a></li>
             <li><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/">Sample Resource</a></li>
             <li><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/">Sample Resource</a></li>

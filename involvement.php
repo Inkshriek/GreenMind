@@ -14,6 +14,8 @@
 </head>
 
 <body>
+    <!-- UPDATE BANNER AND NAV -->
+
     <header>
         <img src = "img/Logo.png" style="width:150px;height:150px;" alt = "Green Mind Logo"/>
         <h1><a href="index.php">Green Mind</a></h1>
@@ -47,22 +49,87 @@
 
     <div class="panel">
         <h3>Recycling & Waste</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et metus non eros vulputate cursus vitae id metus. Etiam vitae est varius, fringilla sapien a, volutpat urna. Nunc fringilla nulla vitae tristique scelerisque. Cras aliquet tortor vel enim lobortis, eget fringilla tellus consequat. Aenean eleifend feugiat nisl. Vestibulum aliquam elit eu elementum dictum. Aliquam lacinia accumsan pulvinar.</p>
-        <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
-        <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
-        <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
+
+        <p>Recycling and waste management will have some differences in what is 
+            acceptable for pickup depending upon where you live. Below is some 
+            basic information regarding recycling and waste disposal.</p>
+
+        <p>Typical recyclables picked up from your home include:</p>
+        <ul>
+            <li>Aluminum and Steel Cans</li>
+            <li>Plastic Bottles and Jugs</li>
+            <li>Paper and Cardboard</li>
+        </ul>
+
+        <div class="recyclingExamples">
+            <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
+            <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200"> 
+            <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
+        </div>
         <p>(This'll have some pictures of waste products, what to recycle, and what symbols to look for.)</p>
+        
+        <p>Note: Other items such as plastic bags and electronics can be 
+            recycled at locations near you. Plastic bags can typically be 
+            dropped off to be recycled at grocery stores in designated bins. 
+            While unwanted electronics such as laptops, phones, and other 
+            e-waste can be recycled at electronic stores and other locations.</p>
+        <p>If you are questioning the ability to recycle or how to dispose 
+            of an item, read our <a href=#resources>resources</a> section!</p>
     </div>
 
     <div class="panel">
-        <h3>Protesting</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et metus non eros vulputate cursus vitae id metus. Etiam vitae est varius, fringilla sapien a, volutpat urna. Nunc fringilla nulla vitae tristique scelerisque. Cras aliquet tortor vel enim lobortis, eget fringilla tellus consequat. Aenean eleifend feugiat nisl. Vestibulum aliquam elit eu elementum dictum. Aliquam lacinia accumsan pulvinar.</p>
-        <p>Fusce venenatis non arcu non congue. Donec vel ex felis. Donec vehicula felis elit, vitae aliquam neque vehicula in. Donec dapibus massa elementum, sodales justo id, vulputate ante. Integer at elit ac leo tincidunt mollis nec et leo. Duis mollis fringilla dictum. Quisque quis ornare odio, malesuada fringilla arcu. Pellentesque id pharetra turpis, quis euismod orci. Ut egestas, nulla sit amet varius dictum, felis turpis pellentesque sapien, aliquam vestibulum nisl lorem quis augue. Sed non risus ante. Maecenas vestibulum lobortis nisi, sed rutrum risus laoreet eget.</p>
+        <h3>More Ways to Get Involved</h3>
+        
+        <ul>
+            <li>Use eco-friendly forms of transportation.</li>
+            <li>Watch your consumption of new items; meaning use second hand or 
+                borrow when able to.</li>
+            <li>Watch your food waste by purchasing food locally grown rather 
+                than imported.</li>
+            <li>Watch your energy consumption by limiting or reducing the 
+                amount of energy you use each day.</li>
+            <li>Use more renewable energy.</li>
+        </ul>
     </div>
 
     <div class="panel">
-        <h3>Regulations</h3>
-        <p>Praesent mattis lobortis leo eu tristique. Ut ultricies, justo vel aliquam consequat, mauris risus feugiat diam, sit amet semper nisi arcu a urna. Maecenas a tellus ac diam ullamcorper interdum a vulputate risus. Sed ornare neque tellus, vitae posuere enim bibendum non. Morbi dapibus, sapien ac convallis bibendum, dolor risus porttitor nulla, mattis porta dolor libero non velit. Sed quis congue lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vulputate luctus sapien ac condimentum. Phasellus justo elit, pharetra et urna sit amet, accumsan accumsan tortor. Morbi auctor ipsum quis sapien suscipit, vel iaculis magna laoreet. Maecenas lacinia sapien elit, vitae semper nisl ultricies eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi luctus vehicula placerat. Vivamus quis odio vulputate, consectetur elit ut, maximus diam. Integer magna lacus, ultrices eu pharetra sed, bibendum pretium nulla.</p>
+        <h3>Resources</h3>
+        
+        <p>Unsure how to dispose of your waste? Check out your county’s website,
+            they will display information about what is acceptable for 
+            recycling, garbage, and how to properly dispose of hazardous wastes. 
+            Your county’s website will also explain what is labeled as hazardous 
+            waste in your area as well.</p>
+
+        <p>Here is a list of some stores that collect electronic waste:</p>
+        <ul>
+            <li>HP</li>
+            <li>Xerox</li>
+            <li>Best Buy</li>
+            <li>Staples</li>
+            <li>Sprint</li>
+            <li>LG</li>
+            <li>Samsung</li>
+            <li>T-Mobile</li>
+            <li>Dell</li>
+            <li>Vizio</li>
+            <li>Sony</li>
+            <li>TCL</li>
+            <li>Target and more!</li>
+        </ul>
+
+        <p>Here is a list of stores that collect plastic bags and other items 
+            for recycling:</p>
+        <ul>
+            <li>Walmart</li>
+            <li>Target</li>
+            <li>Kroger</li>
+            <li>Safeway</li>
+            <li>Publix and more!</li>
+        </ul>
+
+        <p>Check out our social media pages to stay connected and involved with 
+            upcoming events!</p>
     </div>
 
     <div class="panel">
