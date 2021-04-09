@@ -15,28 +15,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <img src = "img/Logo.png" style="width:150px;height:150px;" alt = "Green Mind Logo"/>
-        <h1><a href="index.php">Green Mind</a></h1>
-    </header>
+   
 
     <nav>
-        <ul>
-            <li><a href="events.php">Current Events</a></li>
+        <ul class="container">
+            <li class="item"><a href="events.php">Current Events</a></li>
+            <li class="item"><a href="climate.php">Climate Change</a></li>
+            <li class="item"><a href="blame.php">Who's To Blame</a></li>
+            <li class="item"><a href="involvement.php">Get Involved</a></li>
+            <li class="item"><a href="about.php">About Us</a></li>
+            <li class="item button"><a href="login.php">Login</a></li>
+            <li class="item button secondary"><a href="signup.php">Sign Up</a></li>
+            <li class="toggle"><i class="fas fa-bars fa_custom"></i></li> 
+            <!-- ^Need to add event listener for menu toggle, should assign all 
+                list elements with the class "active" -->
+        </ul>
+        
+        <!-- <ul>
+            <li><a href="index.php">Home</a></li>
             <li><a href="climate.php">Climate Change</a></li>
             <li><a href="blame.php">Who's To Blame</a></li>
             <li><a href="involvement.php">Get Involved</a></li>
             <li><a href="about.php">About Us</a></li>
         </ul>
-        <p id="login"><a href="login.php">Login</a> | <a href="signup.php">Signup</a></p>
+        <p id="login"><a href="login.php">Login</a> | <a href="signup.php">Signup</a></p> -->
     </nav>
-
-    <h2>Login to Green Mind</h2>
     
-    <form id="loginform" action="extern/login.php" method="post">
+    <form class="formBox" id="loginform" action="extern/login.php" method="post">
+        <h1 class="header">Login</h1>
         <input type="text" name="user" placeholder="Username" id="usernamebox" maxlength="25" required>
         <input type="password" name="pass" placeholder="Password" id="passwordbox" maxlength="25" required>
         <input type="submit" id="loginbutton" value="Login">

@@ -10,7 +10,7 @@
     <meta name="description" content="Climate Activism and Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
@@ -23,13 +23,13 @@
 
     <nav>
         <ul class="container">
-            <li class="item"><a href="events.php">Current Events</a></li>
+            <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="climate.php">Climate Change</a></li>
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
             <li class="item" id="selected"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
-            <li class="item button"><a href="">Login</a></li>
-            <li class="item button secondary"><a href="">Sign Up</a></li>
+            <li class="item button"><a href="login.php">Login</a></li>
+            <li class="item button secondary"><a href="signup.php">Sign Up</a></li>
             <li class="toggle"><i class="fas fa-bars fa_custom"></i></li> 
             <!-- ^Need to add event listener for menu toggle, should assign all 
                 list elements with the class "active" -->
