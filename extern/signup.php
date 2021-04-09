@@ -20,7 +20,7 @@
 				$result = mysqli_query($connection, $sql);
 
 				if ($result) {
-					header("Location: ../confirm.php?notif=" . 2);
+					header("Location: ../index.php?signedup=true");
 					exit();
 				}
 				else {

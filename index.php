@@ -37,6 +37,10 @@
 
         <!--Displays login/signup buttons if you're not signed in, or the account button if you are.-->
         <?php
+            if (isset($_GET["signedup"]) && $_GET["notif"] == true) {
+                ?><div class="message">You've successfully signed up! You may use your information now to login.</div><?php
+            }
+
             if (isset($_SESSION["loggedin"])) {
                 if (!$_SESSION["loggedin"]) {
                     ?><p id="login">
@@ -45,11 +49,13 @@
                 }
                 else {
                     ?><p id="account">
-                        <a href="account.php">Your Account</a>
+                        <a href="account.php">Your Account</a> | <a href="logout.php">Logout</a>
                     </p><?php
                 }
             }
-        ?> <!-- If possible, can you add these^ to the nav UL? I want them to be 
+        ?>
+        
+         <!-- If possible, can you add these^ to the nav UL? I want them to be 
             included but I also dont want to deconstruct your code. TY - NS -->
     </nav>
 

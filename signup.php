@@ -36,12 +36,25 @@
 
     <h2>Sign Up with Green Mind</h2>
     
-    <div id="signupform">
-        <input type="text" placeholder="Username" id="usernamebox">
-        <input type="password" placeholder="Password" id="passwordbox">
-        <input type="text" placeholder="Email Address" id="emailbox">
-        <input type="button" id="signbutton" onclick="signUp()" value="Sign Up">
-    </div>
+    <form id="signupform" action="extern/signup.php" method="post">
+        <input type="text" name="user" placeholder="Username" id="usernamebox" maxlength="25" required>
+        <input type="password" name="pass" placeholder="Password" id="passwordbox" maxlength="25" required>
+        <input type="text" name="email" placeholder="Email Address" id="emailbox" maxlength="50" required>
+        <input type="submit" id="signbutton" value="Sign Up">
+        <?php
+            if (isset($_GET["notif"])) {
+                if ($_GET["notif"] == 1) {
+                    ?><div class="message">We encountered a problem during your signup process. Please try again later.</div><?php
+                }
+                else if ($_GET["notif"] == 2) {
+                    ?><div class="message">This username already exists. Please try a different one.</div><?php
+                }
+                else if ($_GET["notif"] == 3) {
+                    ?><div class="message">Please make sure your email is in the correct format, and that your username and password are no less than 6 characters long.</div><?php
+                }
+            }
+        ?>
+    </form>
     
     <footer>
         <p>Prototype Developed by Noah Jervey</p>

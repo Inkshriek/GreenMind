@@ -36,11 +36,24 @@
 
     <h2>Login to Green Mind</h2>
     
-    <div id="loginform">
-        <input type="text" placeholder="Username" id="usernamebox">
-        <input type="password" placeholder="Password" id="passwordbox">
-        <input type="button" id="loginbutton" onclick="logIn()" value="Login">
-    </div>
+    <form id="loginform" action="extern/login.php" method="post">
+        <input type="text" name="user" placeholder="Username" id="usernamebox" maxlength="25" required>
+        <input type="password" name="pass" placeholder="Password" id="passwordbox" maxlength="25" required>
+        <input type="submit" id="loginbutton" value="Login">
+        <?php
+            if (isset($_GET["notif"])) {
+                if ($_GET["notif"] == 1) {
+                    ?><div class="message">Your password is incorrect! Please try again.</div><?php
+                }
+                else if ($_GET["notif"] == 2) {
+                    ?><div class="message">This username doesn't exist! Please try a different one, or signup if you haven't.</div><?php
+                }
+                else if ($_GET["notif"] == 3) {
+                    ?><div class="message">We encountered a problem fetching your information. Please try again later.</div><?php
+                }
+            }
+        ?>
+    </form>
     
     <footer>
         <p>Prototype Developed by Noah Jervey</p>
