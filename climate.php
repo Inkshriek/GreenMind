@@ -54,7 +54,7 @@
     <h1 class="header">Climate Change</h1>
     <div class="main">
         <div class="card">
-            <div class=imgBoxFull>
+            <div class=imgBox>
                 <img src="img/earth.jpg" alt="Earth">
             </div>
             <div class="content">
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="card">
-            <div class=imgBoxFull>
+            <div class=imgBox>
                 <img src="img/weather_vs_climate.jpg" alt="Weather Vs Climate">
             </div>
             <div class="content">
@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="card">
-            <div class=imgBoxFull>
+            <div class=imgBox>
                 <img src="img/nasa-world-heat-map.jpg" alt="Nasa Heat Map">
             </div>
             <div class="content">

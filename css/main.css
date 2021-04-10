@@ -259,12 +259,21 @@ nav a {
   border-radius: 12px;
 }
 
-.imgBox, .imgBoxFull {
+.imgBox {
   min-width: 500px;
   max-width: 500px;
   height: 480px;
   transform: translateX(-120px);
   position: relative;
+}
+
+.imgBoxFull {
+  min-width: 500px;
+  max-width: 500px;
+  height: 480px;
+  transform: translateX(-100px);
+  position: relative;
+  align-self: flex-start;
 }
 
 .imgBox img {
