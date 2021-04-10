@@ -32,9 +32,7 @@
             <li class="item"><a href="about.php">About Us</a></li>
             <li class="item button"><a href="account.php">Your Account</a></li>
             <li class="item button secondary"><a href="logout.php">Logout</a></li>
-            <li class="toggle"><i class="fas fa-bars fa_custom"></i></li> 
-            <!-- ^Need to add event listener for menu toggle, should assign all 
-                list elements with the class "active" -->
+            <li class="toggle" onclick="toggleNav()"><i class="fas fa-bars fa_custom"></i></li> 
         </ul>
     
         <!-- <ul>
@@ -79,12 +77,16 @@
     </div>
 
     <footer>
-        <p>Prototype Developed by Noah Jervey</p>
-        <p>Made for Group 3 of Web Design Workshop II</p>
-        <button onclick="scrolltoTop()" id="scrolltop">Go To Top</button>
+        <button onclick="scrolltoTop()" id="scrolltop" class="backToTop"><i class="fas fa-angle-double-up fa_custom"></i></button>
     </footer>
 
     <script>
+        function toggleNav() {
+            let elements = document.getElementsByClassName("item");
+            for(let i = elements.length - 1; i >= 0; --i) {
+                elements[i].style.display = elements[i].style.display == "block" ? elements[i].style.display = "none" : elements[i].style.display = "block";
+            }
+        }
     </script>
 </body>
 
