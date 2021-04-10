@@ -318,6 +318,7 @@ nav a {
 @media screen and (max-width: 960px) {
   .card {
     max-width: 600px;
+    flex-direction: column;
   }
 
   #personalizationform {
@@ -346,6 +347,7 @@ nav a {
   .imgBox, .imgBoxFull {
     min-width: 100%;
     max-width: 100%;
+    height: auto;
     transform: translate(0, -50px);
   }
 }
