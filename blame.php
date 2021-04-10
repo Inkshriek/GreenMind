@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ccae1dd588.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <ul class="container">
             <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="climate.php">Climate Change</a></li>
-            <li class="item" id="selected"><a href="blame.php">Who's To Blame</a></li>
+            <li class="item selected"><a href="blame.php">Who's To Blame</a></li>
             <li class="item"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
             <li class="item button"><a href="login.php">Login</a></li>
@@ -52,74 +52,92 @@
             included but I also dont want to deconstruct your code. TY - NS -->
     </nav>
     
-    <h1>Who's To Blame</h1>
+    <h1 class="header">Who's To Blame</h1>
 
-    <div class="wrapper">
-        <div class="main">
-            <div class="card">
-                <div class="content">
-                    <h3>Who or what exactly is behind the significant change in our climate?</h3>
-    
-                    <p> As we mentioned on our <a href="climate.php">Climate Change</a> 
-                        page, this change is attributed to many different factors from the 
-                        human population. A large portion of Climate Change is influenced 
-                        by greenhouse gas emissions caused by us humans. (Greenhouse gas 
-                        emissions are gases that are stuck inside our atmosphere that is 
-                        heating our planet, similar to how greenhouses for plants 
-                        function.) But, besides each of our actions, there are larger 
-                        contributors to this rapid change in our environment. Some 
-                        companies and industries play very large roles that are helping 
-                        increase this shift in our climate at larger percentages.</p>
-                </div>
+    <div class="main">
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/Greenhouse-effect.jpg" alt="Greenhouse Effect">
             </div>
-            <div class="card">
-                <div class=content>
-                    <h3>The Industries</h3>
+            <div class="content">
+                <h3 class="title">Who or what exactly is behind the significant change in our climate?</h3>
 
-                    <ul>
-                        <li>Electricty and Heat Production</li>
-                        <li>Industry</li>
-                        <li>Agriculture, Forestry, and Other Land use</li>
-                        <li>Transportation</li>
-                        <li>Buildings</li>
-                        <li>Other Energy</li>
-                    </ul>
+                <p class="text"> 
+                    As we mentioned on our <a href="climate.php">Climate Change</a> 
+                    page, this change is attributed to many different factors from the 
+                    human population. A large portion of Climate Change is influenced 
+                    by greenhouse gas emissions caused by us humans. (Greenhouse gas 
+                    emissions are gases that are stuck inside our atmosphere that is 
+                    heating our planet, similar to how greenhouses for plants 
+                    function.) But, besides each of our actions, there are larger 
+                    contributors to this rapid change in our environment. Some 
+                    companies and industries play very large roles that are helping 
+                    increase this shift in our climate at larger percentages.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/city_pollution.jpg" alt="City Pollution">
+            </div>
+            <div class=content>
+                <h3 class="title">The Industries</h3>
 
-                    <p>The list above, according to <a href=epa.gov>epa.gov</a>, contains 
+                <ul>
+                    <li>Electricty and Heat Production</li>
+                    <li>Industry</li>
+                    <li>Agriculture, Forestry, and Other Land use</li>
+                    <li>Transportation</li>
+                    <li>Buildings</li>
+                    <li>Other Energy</li>
+                </ul>
+
+                <p class="text">
+                    The list above, according to <a href=epa.gov>epa.gov</a>, contains 
                     the leading industries in the world that contribute the largest 
                     percentages of greenhouse gas emissions. Each of these industries 
                     either burns fossil fuels, coal, natural gas, oil, or other substances 
                     along with releasing other gases into our atmosphere that contribute to 
-                    the emissions of greenhouse gases each year.</p>
-                </div>
+                    the emissions of greenhouse gases each year.
+                </p>
             </div>
-            <div class="card">
-                <div class=content>
-                    <h3>The Companies</h3>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/oil-rig.jpg" alt="Oil Rig">
+            </div>
+            <div class=content>
+                <h3 class="title">The Companies</h3>
 
-                    <ul>
-                        <li>China (Coal)</li>
-                        <li>Saudi Arabian Oil Company (Aramco)</li>
-                        <li>Gazprom OAO</li>
-                        <li>National Iranian Oil Co</li>
-                        <li>ExxonMobil Corp</li>
-                        <li>Coal India</li>
-                        <li>Petroleos Mexicanos (Pemex)</li>
-                        <li>Russia (Coal)</li>
-                        <li>Royal Dutch Shell PLC</li>
-                        <li>China National Petroleum Corp (CNPC)</li>
-                    </ul>
+                <ul>
+                    <li>China (Coal)</li>
+                    <li>Saudi Arabian Oil Company (Aramco)</li>
+                    <li>Gazprom OAO</li>
+                    <li>National Iranian Oil Co</li>
+                    <li>ExxonMobil Corp</li>
+                    <li>Coal India</li>
+                    <li>Petroleos Mexicanos (Pemex)</li>
+                    <li>Russia (Coal)</li>
+                    <li>Royal Dutch Shell PLC</li>
+                    <li>China National Petroleum Corp (CNPC)</li>
+                </ul>
 
-                    <p>Above is a list of the top ten companies in the world that 
-                        contribute the most greenhouse gas emissions according to The 
-                        Carbon Majors Database, a report that was published by the Carbon 
-                        Disclosure Project (CDP). </p>
+                <p class="text">
+                    Above is a list of the top ten companies in the world that 
+                    contribute the most greenhouse gas emissions according to The 
+                    Carbon Majors Database, a report that was published by the Carbon 
+                    Disclosure Project (CDP). 
+                    <br><br>
+                    Want to know more and how you can help us fight climate change?
+                    <br><br>
+                    Check out our <a href="involvement.php">Get Involved</a> page to 
+                    know more!
+                </p>
 
-                    <p>Want to know more and how you can help us fight climate change?</p> 
+                <p>Want to know more and how you can help us fight climate change?</p> 
 
-                    <p>Check out our <a href="involvement.php">Get Involved</a> page to 
-                    know more!</p>
-                </div>
+                <p>Check out our <a href="involvement.php">Get Involved</a> page to 
+                know more!</p>
             </div>
         </div>
     </div>
@@ -127,8 +145,7 @@
     <footer>
         <p>Prototype Developed by Noah Jervey</p>
         <p>Made for Group 3 of Web Design Workshop II</p>
-        <button onclick="scrolltoTop()" id="scrolltop">Go To Top</button>
-    </footer>
+        <button onclick="scrolltoTop()" id="scrolltop" class="backToTop"><i class="fas fa-angle-double-up fa_custom"></i></button>    </footer>
 
     <script>
         function scrolltoTop() {

@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ccae1dd588.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="climate.php">Climate Change</a></li>
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
-            <li class="item" id="selected"><a href="involvement.php">Get Involved</a></li>
+            <li class="item selected"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
             <li class="item button"><a href="login.php">Login</a></li>
             <li class="item button secondary"><a href="signup.php">Sign Up</a></li>
@@ -53,48 +53,50 @@
             included but I also dont want to deconstruct your code. TY - NS -->
     </nav>
     
-    <h1>Get Involved</h1>
-    
-    <div class="wrapper">
-        <div class="main">
-            <div class="card">
-                <div class="content">
-                    <h3>Recycling & Waste</h3>
+    <h1 class="header">Get Involved!</h1>
 
-                    <p>Recycling and waste management will have some differences in what is 
-                        acceptable for pickup depending upon where you live. Below is some 
-                        basic information regarding recycling and waste disposal.</p>
-
-                    <p>Typical recyclables picked up from your home include:</p>
-                    <ul>
-                        <li>Aluminum and Steel Cans</li>
-                        <li>Plastic Bottles and Jugs</li>
-                        <li>Paper and Cardboard</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
+    <div class="main">
+        <div class="card">
                 <div class="imgBox">
-                    <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
-                    <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200"> 
-                    <img src="placeholder.jpg" alt="Placeholder Diagram" width="200" height="200">
+                    <img src="img/newspapers.jpg" alt="Newspapers">
+                </div>
+                <div class="content">
+                    <h3 class="title">Recycling & Waste</h3>
+                    <p class="text">
+                        Recycling and waste management will have some differences in what is acceptable for pickup depending upon where you live. Below is some basic information regarding recycling and waste disposal.
+                        <br><br>
+                        Typical recyclables picked up from your home include:
+                        <ul class="text">
+                            <li>Aluminum and Steel Cans</li>
+                            <li>Plastic Bottles and Jugs</li>
+                            <li>Paper and Cardboard</li>
+                        </ul>
+                    </p>
+                    <a href="" class="source">Read More</a>
                 </div>
             </div>
-            <div class="card">
-                <div class="content">
-                    <p>Note: Other items such as plastic bags and electronics can be 
-                        at locations near you. Plastic bags can typically be 
-                        dropped off to be recycled at grocery stores in designated bins. 
-                        While unwanted electronics such as laptops, phones, and other 
-                        e-waste can be recycled at electronic stores and other locations.</p>
-                    <p>If you are questioning the ability to recycle or how to dispose 
-                        of an item, read our <a href=#resources>resources</a> section!</p>
-                </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/recycle_bin.jpg" alt="Recycle Bin">
             </div>
-            <div class="card">
-                <div class="content">
-                    <h3>More Ways to Get Involved</h3>
-        
+            <div class="content">
+                <h3 class="title">Recycling Cont.</h3>
+                <p class="text">
+                    Note: Other items such as plastic bags and electronics can be at locations near you. Plastic bags can typically be dropped off to be recycled at grocery stores in designated bins. While unwanted electronics such as laptops, phones, and other e-waste can be recycled at electronic stores and other locations.
+                    <br><br>
+                    If you are questioning the ability to recycle or how to dispose of an item, read our <a href=#resources>resources</a> section!
+                </p>
+                <a href="" class="source">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/one-world.jpg" alt="World Sign">
+            </div>
+            <div class="content">
+                <h3 class="title">More Ways to Get Involved</h3>
+                <p class="text">
                     <ul>
                         <li>Use eco-friendly forms of transportation.</li>
                         <li>Watch your consumption of new items; meaning use second hand or 
@@ -105,19 +107,20 @@
                             amount of energy you use each day.</li>
                         <li>Use more renewable energy.</li>
                     </ul>
-                </div>
+                </p>
+                <a href="" class="source">Read More</a>
             </div>
-            <div class="card">
-                <div class="content">
-                    <h3>Resources</h3>
-        
-                    <p>Unsure how to dispose of your waste? Check out your county’s website,
-                        they will display information about what is acceptable for 
-                        recycling, garbage, and how to properly dispose of hazardous wastes. 
-                        Your county’s website will also explain what is labeled as hazardous 
-                        waste in your area as well.</p>
-
-                    <p>Here is a list of some stores that collect electronic waste:</p>
+        </div>
+        <div class="card">
+            <div class="imgBox">
+                <img src="img/planet-over-profit.jpg" alt="Sign">
+            </div>
+            <div class="content">
+                <h3 class="title">Resources</h3>
+                <p class="text">
+                    Unsure how to dispose of your waste? Check out your county’s website, they will display information about what is acceptable for recycling, garbage, and how to properly dispose of hazardous wastes. Your county’s website will also explain what is labeled as hazardous waste in your area as well.
+                    <br><br>
+                    Here is a list of some stores that collect electronic waste:
                     <ul>
                         <li>HP</li>
                         <li>Xerox</li>
@@ -133,9 +136,8 @@
                         <li>TCL</li>
                         <li>Target and more!</li>
                     </ul>
-
-                    <p>Here is a list of stores that collect plastic bags and other items 
-                        for recycling:</p>
+                    <br><br>
+                    <p class="text">Here is a list of stores that collect plastic bags and other items for recycling:</p>
                     <ul>
                         <li>Walmart</li>
                         <li>Target</li>
@@ -143,10 +145,9 @@
                         <li>Safeway</li>
                         <li>Publix and more!</li>
                     </ul>
-
-                    <p>Check out our social media pages to stay connected and involved with 
-                        upcoming events!</p>
-                </div>
+                    <p class="text">Check out our social media pages to stay connected and involved with upcoming events!</p>
+                </p>
+                <a href="" class="source">Read More</a>
             </div>
         </div>
     </div>
@@ -154,8 +155,7 @@
     <footer>
         <p>Prototype Developed by Noah Jervey</p>
         <p>Made for Group 3 of Web Design Workshop II</p>
-        <button onclick="scrolltoTop()" id="scrolltop">Go To Top</button>
-    </footer>
+        <button onclick="scrolltoTop()" id="scrolltop" class="backToTop"><i class="fas fa-angle-double-up fa_custom"></i></button>    </footer>
 
     <script>
         function scrolltoTop() {

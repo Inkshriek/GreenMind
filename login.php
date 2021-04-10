@@ -15,11 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ccae1dd588.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-   
+    <div class="banner">
+       <div class="banner-image"></div>
+    </div>
 
     <nav>
         <ul class="container">
