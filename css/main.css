@@ -249,6 +249,16 @@ nav a {
   border-radius: 12px;
 }
 
+#personalizationform {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 120px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border-radius: 12px;
+}
+
 .imgBox, .imgBoxFull {
   min-width: 500px;
   max-width: 500px;
@@ -513,14 +523,4 @@ nav a {
 
 .accountBox input[type="submit"]:hover {
   background: #B6CA80;
-}
-
-#personalizationform {
-  width: 100%;
-  max-width: 600px;
-  padding: 30px;
-  background-color: #FFFFFF;
-  box-shadow: 0 20px 120px rgba(0, 0, 0, 0.2);
-  align-items: center;
-  border-radius: 12px;
 }
