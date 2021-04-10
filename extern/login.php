@@ -9,7 +9,7 @@
 	if (isset($_POST["user"]) && isset($_POST["pass"])) {
 		$user = $_POST["user"];
 		$pass = $_POST["pass"];
-		$sql = "SELECT userID, username, password FROM Users WHERE username='". $user ."'";
+		$sql = "SELECT userID, username, password, email, location, emailupdates FROM userdata WHERE username='". $user ."'";
 		$result = mysqli_query($connection, $sql);
 
 		if ($result) {
@@ -18,6 +18,9 @@
 				if (password_verify($pass, $data["password"])) {
 					$_SESSION["loggedin"] = true;
 					$_SESSION["user"] = $user;
+					$_SESSION["email"] = $data["email"];
+					$_SESSION["location"] = $data["location"];
+					$_SESSION["emailupdates"] = $data["emailupdates"];
 					$_SESSION["id"] = $data["userID"];
 				}
 				else {

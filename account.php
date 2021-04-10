@@ -30,8 +30,8 @@
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
             <li class="item"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
-            <li class="item button"><a href="login.php">Login</a></li>
-            <li class="item button secondary"><a href="signup.php">Sign Up</a></li>
+            <li class="item button"><a href="account.php">Your Account</a></li>
+            <li class="item button secondary"><a href="logout.php">Logout</a></li>
             <li class="toggle"><i class="fas fa-bars fa_custom"></i></li> 
             <!-- ^Need to add event listener for menu toggle, should assign all 
                 list elements with the class "active" -->
@@ -50,18 +50,32 @@
     <h1>Account Details</h1>
 
     <div class="panel">
-        <p id="usernamedisplay">Username: John Doe</p>
-        <p id="emaildisplay">Email: johndoe@gmail.com</p>
+        <p id="usernamedisplay">Username: <?php if (isset($_SESSION["user"])) { echo $_SESSION["user"]; } ?></p>
+        <p id="emaildisplay">Email: <?php if (isset($_SESSION["email"])) { echo $_SESSION["email"]; } ?></p>
 
         <h3>Personalization</h3>
-        <div id="personalizationform">
-            <input type="text" placeholder="Your Country" id="locationbox"><br>
-            <input type="checkbox" id="emailupdatesbox">
-            <label for="emailupdatesbox"> Allow Weekly Email Updates?</label><br>
-        
-            <br>
-            <input type="button" id="savebutton" onclick="" value="Save">
-        </div>
+        <form id="personalizationform" action="extern/account.php" method="post">
+            <input type="text" name="user" placeholder="Username" id="usersavebox" maxlength="25" <?php if (isset($_SESSION["user"])) { echo "value=". $_SESSION['user'] .""; } ?> required>
+            <input type="text" name="location" placeholder="Your Country" maxlength="25" id="locationbox" <?php if (isset($_SESSION["location"])) { echo "value=". $_SESSION['location'] .""; } ?>>
+            <input type="text" name="email" placeholder="Email Address" maxlength="50" id="emailsavebox" <?php if (isset($_SESSION["email"])) { echo "value=". $_SESSION['email'] .""; } ?> required>
+            <input type="checkbox" name="emailupdates" id="emailupdatesbox" <?php if (isset($_SESSION["emailupdates"]) && $_SESSION["emailupdates"] == 1) { echo "checked"; } ?>>
+            <label for="emailupdatesbox"> Allow Weekly Email Updates?</label>
+            <input type="submit" id="savebutton" value="Save">
+
+            <?php
+                if (isset($_GET["notif"])) {
+                    if ($_GET["notif"] == 1) {
+                        ?><div class="message">Your account details were successfully saved!</div><?php
+                    }
+                    else if ($_GET["notif"] == 2) {
+                        ?><div class="message">Please double-check that your email is in the correct format, and that your username is no less than 6 characters long.</div><?php
+                    }
+                    else if ($_GET["notif"] == 3) {
+                        ?><div class="message">We encountered a problem saving your information. Please try again later.</div><?php
+                    }
+                }
+            ?>
+        </form>
     </div>
 
     <footer>
