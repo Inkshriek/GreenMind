@@ -55,7 +55,7 @@
 
     <div class="main">
         <div class="card">
-            <div class="imgBox">
+            <div class="imgBoxFull">
                 <img src="img/Greenhouse-effect.jpg" alt="Greenhouse Effect">
             </div>
             <div class="content">
@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="card">
-            <div class="imgBox">
+            <div class="imgBoxFull">
                 <img src="img/city_pollution.jpg" alt="City Pollution">
             </div>
             <div class=content>
@@ -104,7 +104,7 @@
             </div>
         </div>
         <div class="card">
-            <div class="imgBox">
+            <div class="imgBoxFull">
                 <img src="img/oil-rig.jpg" alt="Oil Rig">
             </div>
             <div class=content>
