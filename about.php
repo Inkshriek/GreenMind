@@ -23,7 +23,7 @@
 
     <nav>
         <ul class="container">
-            <li class="item"><a href="events.php">Current Events</a></li>
+            <li class="item"><a href="index.php">Home</a></li>
             <li class="item"><a href="climate.php">Climate Change</a></li>
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
             <li class="item"><a href="involvement.php">Get Involved</a></li>
