@@ -25,7 +25,7 @@
 
     <nav>
         <ul class="container">
-            <li class="item" id="selected"><a href="index.php">Home</a></li>
+            <li class="item selected"><a href="index.php">Home</a></li>
             <li class="item"><a href="climate.php">Climate Change</a></li>
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
             <li class="item"><a href="involvement.php">Get Involved</a></li>
