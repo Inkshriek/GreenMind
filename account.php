@@ -79,10 +79,6 @@
         </div>
     </div>
 
-    <footer>
-        <button onclick="scrolltoTop()" id="scrolltop" class="backToTop"><i class="fas fa-angle-double-up fa_custom"></i></button>
-    </footer>
-
     <script>
         function toggleNav() {
             let elements = document.getElementsByClassName("item");
