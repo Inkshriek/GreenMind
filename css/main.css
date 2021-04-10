@@ -96,6 +96,10 @@ nav a {
   justify-content: center;
 }
 
+.message {
+  color:#FFFFFF;
+}
+
 @media all and (max-width: 768px) {
   .banner {
     max-height: 200px;
@@ -303,6 +307,10 @@ nav a {
 
 @media screen and (max-width: 960px) {
   .card {
+    max-width: 600px;
+  }
+
+  #personalizationform {
     max-width: 750px;
   }
   
@@ -314,6 +322,12 @@ nav a {
 
 @media screen and (max-width: 768px) {
   .card {
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  #personalizationform {
     padding: 20px;
     flex-direction: column;
     margin-top: 50px;
@@ -499,4 +513,14 @@ nav a {
 
 .accountBox input[type="submit"]:hover {
   background: #B6CA80;
+}
+
+#personalizationform {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #FFFFFF;
+  box-shadow: 0 20px 120px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border-radius: 12px;
 }

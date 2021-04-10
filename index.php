@@ -28,10 +28,6 @@
             <li class="item"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
             <?php
-                if (isset($_GET["signedup"]) && $_GET["signedup"] == true) {
-                    ?><div class="message">You've successfully signed up! You may use your information now to login.</div><?php
-                }
-
                 if (isset($_SESSION["loggedin"])) {
                     if (!$_SESSION["loggedin"]) {
                         ?>
@@ -52,6 +48,11 @@
     </nav>
 
     <h1 class="header">Welcome to Green Mind, your resource on our changing climate.</h1>
+    <?php
+        if (isset($_GET["signedup"]) && $_GET["signedup"] == true) {
+            ?><br><div style="text-align:center;">You've successfully signed up! You may use your information now to login.</div><br><?php
+        }
+    ?>
 
     <!--You should probably see a preview of significant events from here.-->
     <div class="main">
