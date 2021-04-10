@@ -47,33 +47,36 @@
 
     <h1 class="header">Account Details</h1>
 
-    <div class="card">
-        <p id="usernamedisplay" class="text">Username: <?php if (isset($_SESSION["user"])) { echo $_SESSION["user"]; } ?></p>
-        <p id="emaildisplay" class="text">Email: <?php if (isset($_SESSION["email"])) { echo $_SESSION["email"]; } ?></p>
+    <div class="main">
+        <div id="personalizationform">
 
-        <h3>Personalization</h3>
-        <form id="personalizationform" class="accountBox" action="extern/account.php" method="post">
-            <input type="text" name="user" placeholder="Username" id="usersavebox" maxlength="25" <?php if (isset($_SESSION["user"])) { echo "value=". $_SESSION['user'] .""; } ?> required>
-            <input type="text" name="location" placeholder="Your Country" maxlength="25" id="locationbox" <?php if (isset($_SESSION["location"])) { echo "value=". $_SESSION['location'] .""; } ?>>
-            <input type="text" name="email" placeholder="Email Address" maxlength="50" id="emailsavebox" <?php if (isset($_SESSION["email"])) { echo "value=". $_SESSION['email'] .""; } ?> required>
-            <input type="checkbox" name="emailupdates" id="emailupdatesbox" <?php if (isset($_SESSION["emailupdates"]) && $_SESSION["emailupdates"] == 1) { echo "checked"; } ?>>
-            <label for="emailupdatesbox"> Allow Weekly Email Updates?</label>
-            <input type="submit" id="savebutton" value="Save">
+            <form class="accountBox" action="extern/account.php" method="post">
+                <p id="usernamedisplay" class="text"><b>Username:</b> <?php if (isset($_SESSION["user"])) { echo $_SESSION["user"]; } ?></p><br>
+                <p id="emaildisplay" class="text"><b>Email:</b> <?php if (isset($_SESSION["email"])) { echo $_SESSION["email"]; } ?></p><br>
 
-            <?php
-                if (isset($_GET["notif"])) {
-                    if ($_GET["notif"] == 1) {
-                        ?><div class="message">Your account details were successfully saved!</div><?php
+                <h3>Personalization</h3>
+                <input type="text" name="user" placeholder="Username" id="usersavebox" maxlength="25" <?php if (isset($_SESSION["user"])) { echo "value=". $_SESSION['user'] .""; } ?> required>
+                <input type="text" name="location" placeholder="Your Country" maxlength="25" id="locationbox" <?php if (isset($_SESSION["location"])) { echo "value=". $_SESSION['location'] .""; } ?>>
+                <input type="text" name="email" placeholder="Email Address" maxlength="50" id="emailsavebox" <?php if (isset($_SESSION["email"])) { echo "value=". $_SESSION['email'] .""; } ?> required>
+                <input type="checkbox" name="emailupdates" id="emailupdatesbox" <?php if (isset($_SESSION["emailupdates"]) && $_SESSION["emailupdates"] == 1) { echo "checked"; } ?>>
+                <label for="emailupdatesbox"> Allow Weekly Email Updates?</label>
+                <input type="submit" id="savebutton" value="Save">
+
+                <?php
+                    if (isset($_GET["notif"])) {
+                        if ($_GET["notif"] == 1) {
+                            ?><div style="text-align:center;">Your account details were successfully saved!</div><?php
+                        }
+                        else if ($_GET["notif"] == 2) {
+                            ?><div style="text-align:center;">Please double-check that your email is in the correct format, and that your username is no less than 6 characters long.</div><?php
+                        }
+                        else if ($_GET["notif"] == 3) {
+                            ?><div style="text-align:center;">We encountered a problem saving your information. Please try again later.</div><?php
+                        }
                     }
-                    else if ($_GET["notif"] == 2) {
-                        ?><div class="message">Please double-check that your email is in the correct format, and that your username is no less than 6 characters long.</div><?php
-                    }
-                    else if ($_GET["notif"] == 3) {
-                        ?><div class="message">We encountered a problem saving your information. Please try again later.</div><?php
-                    }
-                }
-            ?>
-        </form>
+                ?>
+            </form>
+        </div>
     </div>
 
     <footer>
