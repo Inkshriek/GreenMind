@@ -11,11 +11,11 @@
 		$user = $_POST["user"];
 		$pass = $_POST["pass"];
 		if (filter_var($email, FILTER_VALIDATE_EMAIL) && strlen($user) >= 6 && strlen($pass) >= 6) {
-			$sql = "SELECT username FROM Users WHERE username='". $user ."'";
+			$sql = "SELECT username FROM userdata WHERE username='". $user ."'";
 			$result = mysqli_query($connection, $sql);
 			if (mysqli_num_rows($result) == 0) {
 				$pass = password_hash($pass, PASSWORD_DEFAULT);
-				$sql = "INSERT INTO Users (username, password, email)
+				$sql = "INSERT INTO userdata (username, password, email)
 				VALUES ('" . $user . "', '" . $pass . "', '" . $email . "')";
 				$result = mysqli_query($connection, $sql);
 

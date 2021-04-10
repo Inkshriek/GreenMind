@@ -37,7 +37,7 @@
 
         <!--Displays login/signup buttons if you're not signed in, or the account button if you are.-->
         <?php
-            if (isset($_GET["signedup"]) && $_GET["notif"] == true) {
+            if (isset($_GET["signedup"]) && $_GET["signedup"] == true) {
                 ?><div class="message">You've successfully signed up! You may use your information now to login.</div><?php
             }
 
