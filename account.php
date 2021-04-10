@@ -30,8 +30,8 @@
             <li class="item"><a href="blame.php">Who's To Blame</a></li>
             <li class="item"><a href="involvement.php">Get Involved</a></li>
             <li class="item"><a href="about.php">About Us</a></li>
-            <li class="item button"><a href="login.php">Login</a></li>
-            <li class="item button secondary"><a href="signup.php">Sign Up</a></li>
+            <li class="item button"><a href="account.php">Your Account</a></li>
+            <li class="item button secondary"><a href="logout.php">Logout</a></li>
             <li class="toggle"><i class="fas fa-bars fa_custom"></i></li> 
             <!-- ^Need to add event listener for menu toggle, should assign all 
                 list elements with the class "active" -->
