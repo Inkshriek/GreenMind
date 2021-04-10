@@ -318,68 +318,6 @@ nav a {
   }
 }
 
-/* .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.main {
-  position: relative;
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.main .card {
-  position: relative;
-  max-width: 480px;
-  margin: 10px;
-  padding: 15px;
-  display: flex;
-}
-
-.main .card .imgBox {
-  max-width: 175px;
-  flex: 0 0 175px;
-}
-
-.main .card .imgBox img {
-  max-width: 100%;
-}
-
-.main .card .content {
-  margin-left: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .main {
-    flex-direction: column;
-  }
-  
-}
-
-@media screen and (max-width: 480px) {
-  .main {
-    flex-direction: column;
-  }
-
-  .main .card {
-    flex-direction: column;
-    max-width: 350px;
-  }
-
-  .main .imgBox {
-    max-width: 100%;
-  }
-
-  .main .card .content {
-    margin-left: 0px;
-  }
-} */
 /* Login/Signup */
 
 .formBox {
@@ -457,5 +395,100 @@ nav a {
 }
 
 /* Social Media Buttons */
+.socialMenu ul {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
+.socialMenu ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.socialMenu ul li .fab { 
+  font-size: 24px;
+  line-height: 48px;
+  transition: .5s;
+  color: #ffffff;
+}
+
+.socialMenu ul li .fab:hover {
+  color: #ffffff;
+}
+
+.socialMenu ul li a {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50em;
+  background-color: #222;
+  text-align: center;
+  transition: .5s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.socialMenu ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+.socialMenu ul li:nth-child(1) a:hover {
+  background-color: #55acee;
+}
+
+.socialMenu ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+
+.socialMenu ul li:nth-child(3) a:hover {
+  background-color: #010101;
+}
 /* Account */
+.accountBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.accountBox input[type="text"], .accountBox input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #227C9D;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #222;
+  border-radius: 50em;
+  transition: 0.25s;
+}
+
+.accountBox input[type="text"]:focus, .accountBox input[type="password"]:focus {
+  width: 250px;
+  border-color: #B6CA80;
+}
+
+.accountBox input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #B6CA80;
+  padding: 14px 40px;
+  outline: none;
+  color: #222;
+  border-radius: 50em;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.accountBox input[type="submit"]:hover {
+  background: #B6CA80;
+}

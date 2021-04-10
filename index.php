@@ -12,7 +12,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://kit.fontawesome.com/ccae1dd588.js" crossorigin="anonymous"></script>
-    
 </head>
 
 <body>
@@ -115,18 +114,6 @@
                     And you can do your part to advocate!
                     <p id="takethestep"><a href="climate.php">Take The Step</a>
                 </p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="imgBox">
-
-            </div>
-            <div class="content">
-                <h3 class="title"></h3>
-                <p class="text">
-
-                </p>
-                <a href="" class="source">Read More</a>
             </div>
         </div>
     </div>

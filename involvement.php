@@ -73,7 +73,7 @@
                             <li>Paper and Cardboard</li>
                         </ul>
                     </p>
-                    <a href="" class="source">Read More</a>
+                    <a href="https://floridarecycles.org/" class="source">Read More</a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
                     <br><br>
                     If you are questioning the ability to recycle or how to dispose of an item, read our <a href=#resources>resources</a> section!
                 </p>
-                <a href="" class="source">Read More</a>
+                <a href="https://how2recycle.info/sdo" class="source">Read More</a>
             </div>
         </div>
         <div class="card">
@@ -109,7 +109,7 @@
                         <li>Use more renewable energy.</li>
                     </ul>
                 </p>
-                <a href="" class="source">Read More</a>
+                <a href="https://environmentaldefence.ca/2018/03/29/11-actions-fight-climate-change/" class="source">Read More</a>
             </div>
         </div>
         <div class="card">
@@ -137,6 +137,7 @@
                         <li>TCL</li>
                         <li>Target and more!</li>
                     </ul>
+                    <a href="https://www.epa.gov/recycle/electronics-donation-and-recycling" class="source">Read More</a>
                     <br><br>
                     <p class="text">Here is a list of stores that collect plastic bags and other items for recycling:</p>
                     <ul>
@@ -146,9 +147,11 @@
                         <li>Safeway</li>
                         <li>Publix and more!</li>
                     </ul>
+                    <a href="https://earth911.com/recycling-guide/how-to-recycle-plastic-bags/" class="source">Read More</a>
+                    <br><br>
                     <p class="text">Check out our social media pages to stay connected and involved with upcoming events!</p>
                 </p>
-                <a href="" class="source">Read More</a>
+                
             </div>
         </div>
     </div>

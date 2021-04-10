@@ -75,6 +75,7 @@
                     companies and industries play very large roles that are helping 
                     increase this shift in our climate at larger percentages.
                 </p>
+                <a href="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data" class="source">Read More</a>
             </div>
         </div>
         <div class="card">
@@ -101,6 +102,7 @@
                     along with releasing other gases into our atmosphere that contribute to 
                     the emissions of greenhouse gases each year.
                 </p>
+                <a href="https://b8f65cb373b1b7b15feb-c70d8ead6ced550b4d987d7c03fcdd1d.ssl.cf3.rackcdn.com/cms/reports/documents/000/002/327/original/Carbon-Majors-Report-2017.pdf?1499866813" class="source">Read More</a>
             </div>
         </div>
         <div class="card">
@@ -134,11 +136,7 @@
                     Check out our <a href="involvement.php">Get Involved</a> page to 
                     know more!
                 </p>
-
-                <p>Want to know more and how you can help us fight climate change?</p> 
-
-                <p>Check out our <a href="involvement.php">Get Involved</a> page to 
-                know more!</p>
+                <a href="https://www.activesustainability.com/climate-change/100-companies-responsible-71-ghg-emissions/" class="source">Read More</a>
             </div>
         </div>
     </div>

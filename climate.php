@@ -67,7 +67,7 @@
                     <br><br>
                     Climate Change is not a typically fast occurrence like how it rains in the afternoon for a few hours or less. Climate Change is an alteration in weather that occurs over long periods, like years at a time, to see or notice any significant differences within seasonal weather patterns.
                 </p>
-                <a href="" class="source">Read More</a>
+                <a href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-climate-change-k4.html" class="source">Read More</a>
             </div>
         </div>
         <div class="card">
@@ -83,6 +83,7 @@
                     same place every year on the same day which would cause a change in 
                     the earth’s climate compared to previous weather. 
                 </p>
+                <a href="https://www.nationalgeographic.org/encyclopedia/climate-change/" class="source">Read More</a>
             </div>
         </div>
         <div class="card">

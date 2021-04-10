@@ -12,8 +12,8 @@
     <meta name="description" content="Climate Activism and Education">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://kit.fontawesome.com/ccae1dd588.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
@@ -90,11 +90,13 @@
 
                 <p class="text">Follow Us on Social Media!</p>
                 <!-- NEEDS MORE WORK -->
-                <ul class="socialLinks">
-                    <li class="social"><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"><i class="fab fa-twitter"></i></a></li>
-                    <li class="social"><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"><i class="fab fa-instagram"></i></a></li>
-                    <li class="social"><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"><i class="fab fa-tiktok"></i></a></li>
-                </ul>
+                <div class="socialMenu">
+                    <ul>
+                        <li class="social"><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"><i class="fab fa-twitter"></i></a></li>
+                        <li class="social"><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"><i class="fab fa-instagram"></i></a></li>
+                        <li class="social"><a href="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/"><i class="fab fa-tiktok"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

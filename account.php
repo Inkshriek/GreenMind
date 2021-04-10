@@ -1,9 +1,9 @@
 <?php
     include("extern/database.php");
     
-    if (!isset($_SESSION["loggedin"]) || !$_SESSION["loggedin"]) {
-        header("Location: index.php");
-    }
+    // if (!isset($_SESSION["loggedin"]) || !$_SESSION["loggedin"]) {
+    //     header("Location: index.php");
+    // }
 ?>
 
 <!DOCTYPE html>
@@ -47,14 +47,14 @@
         <p id="account"><a href="account.html">Your Account</a></p> -->
     </nav>
 
-    <h1>Account Details</h1>
+    <h1 class="header">Account Details</h1>
 
-    <div class="panel">
-        <p id="usernamedisplay">Username: <?php if (isset($_SESSION["user"])) { echo $_SESSION["user"]; } ?></p>
-        <p id="emaildisplay">Email: <?php if (isset($_SESSION["email"])) { echo $_SESSION["email"]; } ?></p>
+    <div class="card">
+        <p id="usernamedisplay" class="text">Username: <?php if (isset($_SESSION["user"])) { echo $_SESSION["user"]; } ?></p>
+        <p id="emaildisplay" class="text">Email: <?php if (isset($_SESSION["email"])) { echo $_SESSION["email"]; } ?></p>
 
         <h3>Personalization</h3>
-        <form id="personalizationform" action="extern/account.php" method="post">
+        <form id="personalizationform" class="accountBox" action="extern/account.php" method="post">
             <input type="text" name="user" placeholder="Username" id="usersavebox" maxlength="25" <?php if (isset($_SESSION["user"])) { echo "value=". $_SESSION['user'] .""; } ?> required>
             <input type="text" name="location" placeholder="Your Country" maxlength="25" id="locationbox" <?php if (isset($_SESSION["location"])) { echo "value=". $_SESSION['location'] .""; } ?>>
             <input type="text" name="email" placeholder="Email Address" maxlength="50" id="emailsavebox" <?php if (isset($_SESSION["email"])) { echo "value=". $_SESSION['email'] .""; } ?> required>
